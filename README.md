@@ -15,8 +15,8 @@ If you want the plugin to be able to send embed to webhook, add "string webhook"
 public static void RunPlugin(string s1, int i1, string asdf2, string webhook)
 {
     //Code to execute, for example
-    //Method1();
-    //Clas2.Method2(s1);
+    Method1();
+    Clas2.Method2(s1);
     SendToWebhook(webhook, Resource1.jsonPayload);
 }
 ```
