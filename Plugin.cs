@@ -14,7 +14,7 @@ namespace OrionPlugin
         /// </summary>
         public static void RunPlugin(string webhook)
         {
-            SendToWebhook(webhook, Resource1.jsonPayload);
+            //SendToWebhook(webhook, Resource1.jsonPayload);
         }
 
 
